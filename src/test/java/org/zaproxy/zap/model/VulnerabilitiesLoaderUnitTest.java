@@ -15,8 +15,8 @@ import org.junit.Test;
  */
 public class VulnerabilitiesLoaderUnitTest {
 
-    private static final Path DIRECTORY = Paths.get("test/resources/vulnerabilities/");
-    private static final Path DIRECTORY_INVALID = Paths.get("test/resources/vulnerabilities/invalid");
+    private static final Path DIRECTORY = Paths.get("src/test/resources/vulnerabilities/");
+    private static final Path DIRECTORY_INVALID = Paths.get("src/test/resources/vulnerabilities/invalid");
     private static final String FILE_NAME = "vulnerabilities-test";
     private static final String FILE_EXTENSION = ".xml";
 
