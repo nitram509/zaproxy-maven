@@ -254,12 +254,6 @@
       <version>1.9.4</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <!-- should be scope test !!!! -->
-    </dependency>
   </dependencies>
 
 </project>
