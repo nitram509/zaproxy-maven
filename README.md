@@ -21,3 +21,11 @@ $> mvn compile
 ```
 $> mvn tests
 ```
+
+## Work with IntelliJ IDEA
+
+1. import as Maven based project
+2. run or debug ZAP
+   1. main class is "org.zaproxy.zap.ZAP"
+   2. working directory is "src/main/scripts" (which have to be full qualified in your run config)
+3. Thats it! :-)
