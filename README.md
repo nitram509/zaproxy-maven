@@ -5,6 +5,29 @@
 
 This code is based on subversion rev-6124 from https://code.google.com/p/zaproxy/
 
+## ToDo List
+
+* ~~create Maven directory structure~~ Done.
+* ~~make it compile in Maven~~ Done.
+* ~~make tests run in Maven~~ Done. (except 2 out of 308 tests are failing, but this seems to be a real issue, needs further investigation)
+* ~~make ZAP run from inside an IDE~~ Done.
+* make Maven build javadocs 
+* migrate the build/build.xml
+   * Windows.exe
+   * Mac_OS_X.dmg
+   * Linux.tar.gz
+   * Core.tar.gz
+   * Sources.zip (new)
+* migrate the build/build-api.xml
+   * nodejs
+   * php
+   * python
+   * java
+* migrate the build/build-debian.xml
+* migrate Docker build
+* migrate wave
+* migrate wavesep
+
 ### Requirements
 
 * Java 1.7+
