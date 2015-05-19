@@ -11,7 +11,7 @@ This code is based on subversion rev-6124 from https://code.google.com/p/zaproxy
 * ~~make it compile in Maven~~ Done.
 * ~~make tests run in Maven~~ Done. (except 2 out of 308 tests are failing, but this seems to be a real issue, needs further investigation)
 * ~~make ZAP run from inside an IDE~~ Done.
-* make Maven build javadocs 
+* ~~make Maven build javadocs~~ Done. 
 * migrate the build/build.xml
    * Windows.exe
    * Mac_OS_X.dmg
@@ -43,6 +43,12 @@ $> mvn compile
 
 ```
 $> mvn tests
+```
+
+### Build javadoc
+
+```
+$> mvn -DskipTests=true javadoc:javadoc
 ```
 
 ## Work with IntelliJ IDEA
