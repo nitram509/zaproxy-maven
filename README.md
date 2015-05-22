@@ -5,6 +5,10 @@
 
 This code is based on subversion rev-6124 from https://code.google.com/p/zaproxy/
 
+## Current Status
+
+On Hold.
+
 ## ToDo List
 
 * ~~create Maven directory structure~~ Done.
